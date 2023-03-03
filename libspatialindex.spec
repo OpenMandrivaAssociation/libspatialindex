@@ -4,7 +4,7 @@
 
 Name: libspatialindex
 Version: 1.9.3
-Release: 1
+Release: 2
 Source0: https://github.com/libspatialindex/libspatialindex/archive/%{version}/%{name}-%{version}.tar.gz
 Summary: Library for spatial indexing
 URL: https://libspatialindex.org/
@@ -48,6 +48,7 @@ The purpose of this library is to provide:
 Summary: Development files for %{name}
 Group: Development/C
 Requires: %{libname} = %{EVRD}
+Provides: spatialindex-devel = %{EVRD}
 
 %description -n %{devname}
 Development files (Headers etc.) for %{name}.
