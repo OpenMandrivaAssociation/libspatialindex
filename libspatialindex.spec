@@ -4,7 +4,7 @@
 
 Name: libspatialindex
 Version: 1.9.3
-Release: 2
+Release: 3
 Source0: https://github.com/libspatialindex/libspatialindex/archive/%{version}/%{name}-%{version}.tar.gz
 Summary: Library for spatial indexing
 URL: https://libspatialindex.org/
